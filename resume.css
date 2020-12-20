@@ -22,7 +22,7 @@ body::-webkit-scrollbar {
 
 /* Horizontal Lists */
 
-.bars{
+.bars {
     color: white;
     margin: 0;
     margin-right: 5%;
@@ -33,30 +33,30 @@ body::-webkit-scrollbar {
     font-size: 2rem;
 }
 
-.dropdown-list{
+.dropdown-list {
     margin: 0;
     display: none;
     background-color: #828470;
     box-shadow: 0px 4px 8px 1px #535547;
 }
 
-.dropdown-list ul{
+.dropdown-list ul {
     margin: 0.2rem 0.2rem;
     text-align: left;
     padding: 0px 0.8rem;
 }
 
-.dropdown-menu:hover .dropdown-list{
+.dropdown-menu:hover .dropdown-list {
     display: block;
     position: absolute;
     right: 3%;
 }
 
-.dropdown-list li{
+.dropdown-list li {
     margin: 0.4rem 0px;
 }
 
-.no-list-style{
+.no-list-style {
     list-style: none;
 }
 
@@ -65,7 +65,7 @@ body::-webkit-scrollbar {
     font-size: 1.2rem;
 }
 
-.no-list-style li a{
+.no-list-style li a {
     list-style: none;
     color: white;
     text-decoration: none;
@@ -81,7 +81,6 @@ body::-webkit-scrollbar {
     margin: 0px 8px 8px 0px;
 }
 
-
 .nav-menu li a {
     transition: color 0.5s, border-bottom 4s;
 }
@@ -91,11 +90,10 @@ body::-webkit-scrollbar {
     border-bottom: 1px solid black;
 }
 
-
 /* Name and Social Icons*/
 
 #name-social-container {
-    margin-top: 18.5vh;
+    margin-top: 14.5vh;
 }
 
 #my-name {
@@ -103,7 +101,7 @@ body::-webkit-scrollbar {
     letter-spacing: 0.1rem;
     color: white;
     font-weight: 700;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
 }
 
 .social-icons li a i {
@@ -116,7 +114,7 @@ body::-webkit-scrollbar {
     box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
 }
 
-#codeforce-icon{
+#codeforce-icon {
     transform: rotate(270deg);
 }
 
@@ -151,8 +149,6 @@ section:nth-child(2n + 1) {
     margin-right: 0.5rem;
 }
 
-
-
 /*About Section*/
 
 #about {
@@ -174,7 +170,7 @@ section:nth-child(2n + 1) {
     width: 100%;
     border-radius: 50%;
     border: 3px solid white;
-    box-shadow: 1px 1px 10px 2px cyan;
+    box-shadow: 1px 1px 10px 2px rgb(95, 94, 93);
 }
 
 #about-para {
@@ -186,8 +182,6 @@ section:nth-child(2n + 1) {
     font-size: 1.1rem;
     margin: auto;
 }
-
-
 
 /*Skills Section*/
 
@@ -210,7 +204,7 @@ section:nth-child(2n + 1) {
     overflow: hidden;
 }
 
-.skill-progress > div {
+.skill-progress>div {
     border-radius: 20px 0px 0px 20px;
     box-shadow: 1px 1px 5px 2px #989882;
 }
@@ -221,8 +215,6 @@ section:nth-child(2n + 1) {
     margin-left: 10px;
     vertical-align: middle;
 }
-
-
 
 /* Work Experience */
 
@@ -273,7 +265,7 @@ section:nth-child(2n + 1) {
     overflow: hidden;
 }
 
-.timeline-logo > img {
+.timeline-logo>img {
     width: 100%;
 }
 
@@ -325,11 +317,6 @@ section:nth-child(2n + 1) {
     line-height: 20px;
 }
 
-
-
-
-
-
 /* Portfolio Section */
 
 #portfolio-container {
@@ -375,8 +362,6 @@ section:nth-child(2n + 1) {
     color: white;
 }
 
-
-
 /* Contact Form */
 
 #contact {
@@ -386,8 +371,7 @@ section:nth-child(2n + 1) {
     padding-bottom: 40px;
 }
 
-#contact h1,
-#contact h1 span {
+#contact h1, #contact h1 span {
     color: white;
 }
 
@@ -440,9 +424,7 @@ section:nth-child(2n + 1) {
     margin-right: 0.5rem;
 }
 
-
-#contact-form input,
-textarea {
+#contact-form input, textarea {
     max-width: 90%;
     margin: 15px;
     padding: 4px 10px;
@@ -480,19 +462,15 @@ textarea {
     font-size: 1.2rem;
     margin: 40px 10px 10px;
     padding: 10px 14px 20px 10px;
-
 }
 
-input:focus,
-select:focus,
-textarea:focus,
-button:focus {
+input:focus, select:focus, textarea:focus, button:focus {
     outline: none;
 }
 
 /* Common Text Align Classes */
 
-.text-right{
+.text-right {
     text-align: right;
 }
 
@@ -518,16 +496,12 @@ button:focus {
     margin-bottom: 50px;
 }
 
-
-
 /*common color classes */
 
 .text-highlight {
     color: #2857a4;
     font-weight: 600;
-
 }
-
 
 /* setting background-color */
 
@@ -551,8 +525,6 @@ button:focus {
     background-color: #93738c;
 }
 
-
-
 /*Percentage Classes */
 
 .eighty-five-percent {
@@ -569,63 +541,49 @@ button:focus {
     height: inherit;
     width: 50%;
 }
+
 .sixty-percent {
     height: inherit;
     width: 60%;
 }
 
 @media only screen and (max-width: 572px) {
-    
     .timeline-box {
         width: 100%;
         left: 10% !important;
     }
-
     .bars {
         display: block;
     }
-    
-    
     .nav-menu {
         display: none;
-    } 
+    }
 }
 
-
-
 @media only screen and (max-width: 768px) {
-
-
     .timeline-box {
         width: 90%;
         left: 10% !important;
     }
-
     .timeline-box::after {
         left: -9.3% !important;
     }
-
     #timeline-divider {
         top: 10%;
         left: 2%;
     }
-
     #contact-form {
         margin-left: 0%;
     }
-
     #contact-container {
         flex-wrap: wrap;
     }
-
     #my-details-container {
         width: 80%;
         margin: 10%;
     }
-
     #contact-form-container {
         width: 80%;
         margin: 10%;
     }
-
 }
