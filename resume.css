@@ -95,7 +95,7 @@ body::-webkit-scrollbar {
 /* Name and Social Icons*/
 
 #name-social-container {
-    margin-top: 20vh;
+    margin-top: 18.5vh;
 }
 
 #my-name {
@@ -174,7 +174,7 @@ section:nth-child(2n + 1) {
     width: 100%;
     border-radius: 50%;
     border: 3px solid white;
-    box-shadow: 1px 1px 10px 2px lightgrey;
+    box-shadow: 1px 1px 10px 2px cyan;
 }
 
 #about-para {
