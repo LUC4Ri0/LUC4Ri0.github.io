@@ -62,7 +62,7 @@ body::-webkit-scrollbar {
 
 .no-list-style li {
     font-weight: 100;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 
 .no-list-style li a{
@@ -99,7 +99,7 @@ body::-webkit-scrollbar {
 }
 
 #my-name {
-    font-size: 4rem;
+    font-size: 5rem;
     letter-spacing: 0.1rem;
     color: white;
     font-weight: 700;
@@ -163,8 +163,8 @@ section:nth-child(2n + 1) {
 }
 
 #my-image {
-    height: 15rem;
-    width: 15rem;
+    height: 18rem;
+    width: 18rem;
     margin: auto;
     margin-top: -17vh;
 }
