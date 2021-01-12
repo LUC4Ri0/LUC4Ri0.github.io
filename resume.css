@@ -8,6 +8,7 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+
 /* Body Header */
 
 #body-header {
@@ -19,6 +20,7 @@ body::-webkit-scrollbar {
     background-attachment: fixed;
     padding-top: 1.2rem;
 }
+
 
 /* Horizontal Lists */
 
@@ -90,6 +92,7 @@ body::-webkit-scrollbar {
     border-bottom: 1px solid black;
 }
 
+
 /* Name and Social Icons*/
 
 #name-social-container {
@@ -117,6 +120,7 @@ body::-webkit-scrollbar {
 #codeforce-icon {
     transform: rotate(270deg);
 }
+
 
 /*Section Classes*/
 
@@ -148,6 +152,7 @@ section:nth-child(2n + 1) {
     padding-top: 10px;
     margin-right: 0.5rem;
 }
+
 
 /*About Section*/
 
@@ -183,6 +188,7 @@ section:nth-child(2n + 1) {
     margin: auto;
 }
 
+
 /*Skills Section*/
 
 .skills-display {
@@ -215,6 +221,7 @@ section:nth-child(2n + 1) {
     margin-left: 10px;
     vertical-align: middle;
 }
+
 
 /* Work Experience */
 
@@ -261,12 +268,13 @@ section:nth-child(2n + 1) {
 
 .timeline-logo {
     position: absolute;
-    width: 50px;
+    width: 40px;
     overflow: hidden;
 }
 
 .timeline-logo>img {
     width: 100%;
+    /* margin-right: 100px; */
 }
 
 #timeline-divider {
@@ -317,6 +325,7 @@ section:nth-child(2n + 1) {
     line-height: 20px;
 }
 
+
 /* Portfolio Section */
 
 #portfolio-container {
@@ -362,6 +371,7 @@ section:nth-child(2n + 1) {
     color: white;
 }
 
+
 /* Contact Form */
 
 #contact {
@@ -371,7 +381,8 @@ section:nth-child(2n + 1) {
     padding-bottom: 40px;
 }
 
-#contact h1, #contact h1 span {
+#contact h1,
+#contact h1 span {
     color: white;
 }
 
@@ -424,7 +435,8 @@ section:nth-child(2n + 1) {
     margin-right: 0.5rem;
 }
 
-#contact-form input, textarea {
+#contact-form input,
+textarea {
     max-width: 90%;
     margin: 15px;
     padding: 4px 10px;
@@ -464,9 +476,13 @@ section:nth-child(2n + 1) {
     padding: 10px 14px 20px 10px;
 }
 
-input:focus, select:focus, textarea:focus, button:focus {
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
     outline: none;
 }
+
 
 /* Common Text Align Classes */
 
@@ -482,6 +498,7 @@ input:focus, select:focus, textarea:focus, button:focus {
     text-align: justify;
 }
 
+
 /* Common Margin Classes */
 
 .m0 {
@@ -496,12 +513,14 @@ input:focus, select:focus, textarea:focus, button:focus {
     margin-bottom: 50px;
 }
 
+
 /*common color classes */
 
 .text-highlight {
     color: #2857a4;
     font-weight: 600;
 }
+
 
 /* setting background-color */
 
@@ -524,6 +543,7 @@ input:focus, select:focus, textarea:focus, button:focus {
 .mb-light-purple {
     background-color: #93738c;
 }
+
 
 /*Percentage Classes */
 
