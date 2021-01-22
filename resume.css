@@ -567,6 +567,16 @@ button:focus {
     width: 60%;
 }
 
+.thirtyFive-percent {
+    height: inherit;
+    width: 35%;
+}
+
+.forty-percent {
+    height: inherit;
+    width: 40%;
+}
+
 @media only screen and (max-width: 572px) {
     .timeline-box {
         width: 100%;
